@@ -1,0 +1,63 @@
+Looking for adunit with the tag_hash: rttnt5_ros_320x50_dfp_1
+(AdUnit){
+   id = "179406768"
+   parentId = "13895688"
+   hasChildren = False
+   parentPath[] = 
+      (AdUnitParent){
+         id = "13895688"
+         name = "ca-pub-3594656924084779"
+         adUnitCode = "ca-pub-3594656924084779"
+      },
+   name = "rttnt5_ros_320x50_dfp_1"
+   description = None
+   targetWindow = "TOP"
+   status = "ACTIVE"
+   adUnitCode = "180406768"
+   adUnitSizes[] = 
+      (AdUnitSize){
+         size = 
+            (Size){
+               width = 320
+               height = 50
+               isAspectRatio = False
+            }
+         environmentType = "BROWSER"
+         fullDisplayString = "320x50"
+      },
+   targetPlatform = "WEB"
+   mobilePlatform = "SITE"
+   explicitlyTargeted = False
+   inheritedAdSenseSettings = 
+      (AdSenseSettingsInheritedProperty){
+         value = 
+            (AdSenseSettings){
+               adSenseEnabled = False
+               borderColor = "FFFFFF"
+               titleColor = "0000FF"
+               backgroundColor = "FFFFFF"
+               textColor = "000000"
+               urlColor = "008000"
+               adType = "IMAGE"
+               borderStyle = "DEFAULT"
+               fontFamily = "DEFAULT"
+               fontSize = "DEFAULT"
+            }
+      }
+   lastModifiedDateTime = 
+      (DateTime){
+         date = 
+            (Date){
+               year = 2015
+               month = 7
+               day = 30
+            }
+         hour = 13
+         minute = 50
+         second = 17
+         timeZoneID = "PST8PDT"
+      }
+   smartSizeMode = "NONE"
+   isSharedByDistributor = False
+   isSetTopBoxEnabled = False
+ }

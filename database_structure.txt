@@ -1,0 +1,75 @@
+{
+  "_id" : ObjectId("55db41497f55796010d66144"),
+  "custom_totals" : [ ],
+  "status" : "new setup",
+  "reporting_automated" : "yes",
+  "edited_by" : "david",
+  "site_updated" : ISODate("2015-08-24T16:04:36.354Z"),
+  "providers" : [{ "provider_name" : "contextweb", "provider_rev_share" : "0.3", "provider_extra" : "pp9", "second_rev_share" : "0.3", "provider_status" : "Ready - Approved" }, { "provider_name" : "pubmatic", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Hold - Awaiting Approval" }, { "provider_name" : "appnexus", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Off" }, { "provider_name" : "openx3", "provider_rev_share" : "0.32", "provider_extra" : "", "second_rev_share" : "0.32", "provider_status" : "Ready - Approved" }, { "provider_name" : "adtech", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Ready - Approved" }, { "provider_name" : "pubaccess", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Off" }, { "provider_name" : "adsense", "provider_rev_share" : "0.35", "provider_extra" : "", "second_rev_share" : "0.35", "provider_status" : "Live" }, { "provider_name" : "index", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Hold - Awaiting Approval" }, { "provider_name" : "martini", "provider_rev_share" : "0.35", "provider_extra" : "", "second_rev_share" : "0.35", "provider_status" : "Off" }, { "provider_name" : "advertising", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Off" }, { "provider_name" : "valueclick", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Off" }, { "provider_name" : "sovrn", "provider_rev_share" : "0.3", "provider_extra" : "", "second_rev_share" : "0.3", "provider_status" : "Hold - Awaiting Approval" }, { "provider_name" : "dfp", "provider_rev_share" : "0.3", "provider_extra" : "Tego", "second_rev_share" : "0.3", "provider_status" : "Ready - Approved" } ],
+  "site_status" : "Data Entry",
+  "associated_accounts" : [ "tego" ],
+  "reporting_match" : "dyntw1",
+  "payment_name" : "Tego",
+  "site_url" : "www.diynetwork.com",
+  "site_created" : ISODate("2015-08-24T16:04:36.354Z"),
+  "tags" : [ ],
+  "reporting_total" : "server_logs",
+  "last_updated" : ISODate("2015-08-24T16:06:02.206Z"),
+  "reporting_no_match" : "",
+  "site_name" : "DIYNetwork",
+  "site_slug" : "dyntw1",
+  "placements" : [
+    {
+      "placement_zone" : "ros",
+      "placement_providers" : { "dfp_2" : 2, "adtech_3" : 3, "openx3_1" : 1, "contextweb_4" : 4, "openx3_5" : 5 },
+      "tags" : [
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "openx3", "publisher" : "dyntw1", "price" : "0.59412", "tag_hash" : "dyntw1_ros_160x600_openx3_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.022Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "dfp", "publisher" : "dyntw1", "price" : "0.599071", "tag_hash" : "dyntw1_ros_160x600_dfp_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.022Z"), "tag_extra" : "Tego", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "adtech", "publisher" : "dyntw1", "price" : "0.74265", "tag_hash" : "dyntw1_ros_160x600_adtech_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.022Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "contextweb", "publisher" : "dyntw1", "price" : "0.648581", "tag_hash" : "dyntw1_ros_160x600_pp9_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.022Z"), "tag_extra" : "pp9", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 2, "domain" : "www.diynetwork.com", "network" : "openx3", "publisher" : "dyntw1", "price" : "0.519855", "tag_hash" : "dyntw1_ros_160x600_openx3_l2", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" }
+      ],
+      "placement_price" : "0.4951",
+      "default_tag" : "document.write('<scr'+'ipt  src=\"http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=160X600&cwpid=557564&cwwidth=160&cwheight=600&cwpnet=1&cwtagid=188612\"></scr'+'ipt>');",
+      "placement_device" : "desktop",
+      "placement_name" : "desktop 160x600 ros",
+      "placement_created" : ISODate("2015-08-24T16:04:36.355Z"),
+      "placement_ad_size" : "160x600"
+    },
+    {
+      "placement_zone" : "ros",
+      "placement_providers" : { "dfp_2" : 2, "adtech_3" : 3, "openx3_1" : 1, "contextweb_4" : 4, "openx3_5" : 5 },
+      "tags" : [
+         { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "openx3", "publisher" : "dyntw1", "price" : "0.59412", "tag_hash" : "dyntw1_ros_300x250_openx3_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+         { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "dfp", "publisher" : "dyntw1", "price" : "0.599071", "tag_hash" : "dyntw1_ros_300x250_dfp_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "Tego", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+         { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "adtech", "publisher" : "dyntw1", "price" : "0.74265", "tag_hash" : "dyntw1_ros_300x250_adtech_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+         { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "contextweb", "publisher" : "dyntw1", "price" : "0.648581", "tag_hash" : "dyntw1_ros_300x250_pp9_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "pp9", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+         { "status" : "new", "slot" : 2, "domain" : "www.diynetwork.com", "network" : "openx3", "publisher" : "dyntw1", "price" : "0.519855", "tag_hash" : "dyntw1_ros_300x250_openx3_l2", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" }
+      ],
+      "placement_price" : "0.4951",
+      "default_tag" : "document.write('<scr'+'ipt  src=\"http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=300X250&cwpid=557564&cwwidth=300&cwheight=250&cwpnet=1&cwtagid=188616\"></scr'+'ipt>');",
+      "placement_device" : "desktop",
+      "placement_name" : "desktop 300x250 ros",
+      "placement_created" : ISODate("2015-08-24T16:04:36.355Z"),
+      "placement_ad_size" : "300x250"
+    },
+    {
+      "placement_zone" : "ros",
+      "placement_providers" : { "dfp_2" : 2, "adtech_3" : 3, "openx3_1" : 1, "contextweb_4" : 4, "openx3_5" : 5 },
+      "tags" : [
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "openx3", "publisher" : "dyntw1", "price" : "0.59412", "tag_hash" : "dyntw1_ros_728x90_openx3_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "dfp", "publisher" : "dyntw1", "price" : "0.599071", "tag_hash" : "dyntw1_ros_728x90_dfp_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "Tego", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "adtech", "publisher" : "dyntw1", "price" : "0.74265", "tag_hash" : "dyntw1_ros_728x90_adtech_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 1, "domain" : "www.diynetwork.com", "network" : "contextweb", "publisher" : "dyntw1", "price" : "0.648581", "tag_hash" : "dyntw1_ros_728x90_pp9_1", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "pp9", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" },
+        { "status" : "new", "slot" : 2, "domain" : "www.diynetwork.com", "network" : "openx3", "publisher" : "dyntw1", "price" : "0.519855", "tag_hash" : "dyntw1_ros_728x90_openx3_l2", "site" : "dyntw1", "last_update" : ISODate("2015-08-24T16:05:59.023Z"), "tag_extra" : "", "audit_notes" : [ ], "invocation_code" : "", "url_macro" : "no", "tag_type" : "sync" }
+      ],
+      "placement_price" : "0.4951",
+      "default_tag" : "document.write('<scr'+'ipt  src=\"http://tag.contextweb.com/TagPublish/getjs.aspx?action=VIEWAD&cwrun=200&cwadformat=728X90&cwpid=557564&cwwidth=728&cwheight=90&cwpnet=1&cwtagid=188620\"></scr'+'ipt>');",
+      "placement_device" : "desktop",
+      "placement_name" : "desktop 728x90 ros",
+      "placement_created" : ISODate("2015-08-24T16:04:36.355Z"),
+      "placement_ad_size" : "728x90"
+    }
+  ],
+  "reporting_type" : "standard"
+}

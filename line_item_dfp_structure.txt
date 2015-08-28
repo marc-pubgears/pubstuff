@@ -1,0 +1,126 @@
+(LineItem){
+   orderId = 75655128
+   id = 8896848
+   name = "PubGears Leader"
+   externalId = None
+   orderName = "AdExchange"
+   startDateTime = 
+      (DateTime){
+         date = 
+            (Date){
+               year = 2012
+               month = 6
+               day = 12
+            }
+         hour = 16
+         minute = 42
+         second = 0
+         timeZoneID = "America/New_York"
+      }
+   startDateTimeType = "USE_START_DATE_TIME"
+   autoExtensionDays = 0
+   unlimitedEndDateTime = True
+   creativeRotationType = "EVEN"
+   deliveryRateType = "EVENLY"
+   roadblockingType = "ONE_OR_MORE"
+   lineItemType = "AD_EXCHANGE"
+   priority = 12
+   costPerUnit = 
+      (Money){
+         currencyCode = "USD"
+         microAmount = 0
+      }
+   valueCostPerUnit = 
+      (Money){
+         currencyCode = "USD"
+         microAmount = 0
+      }
+   costType = "CPM"
+   discountType = "PERCENTAGE"
+   discount = 0.0
+   contractedUnitsBought = 0
+   creativePlaceholders[] = 
+      (CreativePlaceholder){
+         size = 
+            (Size){
+               width = 728
+               height = 90
+               isAspectRatio = False
+            }
+         id = 0
+         expectedCreativeCount = 1
+         creativeSizeType = "PIXEL"
+      },
+   targetPlatform = "WEB"
+   environmentType = "BROWSER"
+   companionDeliveryOption = "UNKNOWN"
+   creativePersistenceType = "NOT_PERSISTENT"
+   allowOverbook = False
+   skipInventoryCheck = False
+   skipCrossSellingRuleWarningChecks = False
+   reserveAtCreation = False
+   stats = 
+      (Stats){
+         impressionsDelivered = 131244
+         clicksDelivered = 4
+         videoCompletionsDelivered = 0
+         videoStartsDelivered = 0
+      }
+   deliveryData = 
+      (DeliveryData){
+         units[] = 
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+      }
+   budget = 
+      (Money){
+         currencyCode = "USD"
+         microAmount = 0
+      }
+   status = "PAUSED"
+   reservationStatus = "UNRESERVED"
+   isArchived = True
+   webPropertyCode = "ca-pub-8991826184580116"
+   disableSameAdvertiserCompetitiveExclusion = False
+   lastModifiedByApp = "Goog_DFPUI"
+   lastModifiedDateTime = 
+      (DateTime){
+         date = 
+            (Date){
+               year = 2012
+               month = 7
+               day = 11
+            }
+         hour = 12
+         minute = 28
+         second = 2
+         timeZoneID = "PST8PDT"
+      }
+   isPrioritizedPreferredDealsEnabled = False
+   adExchangeAuctionOpeningPriority = 0
+   isSetTopBoxEnabled = False
+   isMissingCreatives = False
+   primaryGoal = 
+      (Goal){
+         goalType = "NONE"
+         unitType = "IMPRESSIONS"
+         units = -1
+      }
+   targeting = 
+      (Targeting){
+         inventoryTargeting = 
+            (InventoryTargeting){
+               targetedAdUnits[] = 
+                  (AdUnitTargeting){
+                     adUnitId = "13895688"
+                     includeDescendants = True
+                  },
+            }
+         technologyTargeting = ""
+      }
+ }
